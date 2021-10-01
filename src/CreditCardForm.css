@@ -1,0 +1,43 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: thin;
+  border-radius: 5px;
+  background-color: rgb(201, 192, 192);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Input {
+  color: darkgrey;
+  text-align: center;
+  width: -webkit-fill-available;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgb(233, 227, 227);
+  margin-bottom: 20px;
+}
+
+.Button {
+  background-color: rgb(166, 109, 194);
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.Date-Div {
+  display: flex;
+  flex-direction: row;
+}
+
+.Date-Div > *:not(:first-child) {
+  margin-left: 20px;
+}
+
+.Error-Div {
+  color: red;
+  padding-top: 5px;
+}
